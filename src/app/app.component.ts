@@ -63,7 +63,6 @@ export class AppComponent implements OnInit {
 							this.massValut[i].diff = this.currencyPrevious[i] - this.massValut[i].Number;
 						}
 						this.currencyPrevious[i] = 1 / put[key]
-
 					}
 				}
 			}
